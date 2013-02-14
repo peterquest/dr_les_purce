@@ -10,9 +10,9 @@ def generate_evergreen_class(matches, messenger):
 
 	# lists of evergreen class words.
 	# these must be gerunds of transitive verbs. for example 'looking' doesn't work ('looking social diversity').
-	gerunds = ["Discovering", "Imagining", "Drawing", "Defending", "Writing", "Rewriting", "Interrogating", "Examining", "Reinterpreting", "Engaging", "Exploring", "Interpreting", "Improvising"]
-	adjectives = ["Real", "Literary", "Imagined", "Cultural", "Evolutionary", "Social", "Forbidden", "Sustainable", "Emergent", "Dynamic", "Interdisciplinary", "Growth-based", "Sustainable", "Gothic", "An Introduction To", "Non-postmodern","Modern"]
-	nouns = ["Alternatives", "Foundations", "Representations", "Narratives", "Crafts", "Biodiversity", "Knowledge", "Abjection", "Art", "Time", "Argentina", "Plants", "People", "Ecoliteracy", "Change", "Mausoleums", "Systemizations", "Equality Speech", "Male Privelege", "Gender-Power", "Freewriting", "Media Studies", "Studies", "Afro-Brazilian Dance", "Approaches to Healing", "Ballet", "Art/Work", "Foundations of Change", "Form", "Function", "Dance Creations", "Power Dynamics", "Heteronormativity", "Inverted Sexuality", "Sexuality", "Polyamory", "Freestyle Deforestation"]
+	gerunds = ["Discovering", "Imagining", "Drawing", "Defending", "Writing", "Rewriting", "Interrogating", "Examining", "Reinterpreting", "Engaging", "Exploring", "Interpreting", "Improvising", "Envisioning", "Understanding", "Reinventing"]
+	adjectives = ["Real", "Literary", "Imagined", "Cultural", "Evolutionary", "Social", "Forbidden", "Sustainable", "Emergent", "Dynamic", "Interdisciplinary", "Growth-based", "Sustainable", "Gothic", "An Introduction To", "Non-postmodern","Modern","Diverse"]
+	nouns = ["Alternatives", "Foundations", "Representations", "Narratives", "Crafts", "Biodiversity", "Knowledge", "Abjection", "Art", "Time", "Argentina", "Plants", "People", "Ecoliteracy", "Change", "Mausoleums", "Systemizations", "Equality Speech", "Male Privelege", "Gender-Power", "Freewriting", "Media Studies", "Studies", "Afro-Brazilian Dance", "Approaches to Healing", "Ballet", "Art/Work", "Foundations of Change", "Form", "Function", "Dance Creations", "Power Dynamics", "Heteronormativity", "Inverted Sexuality", "Sexuality", "Polyamory", "Freestyle Deforestation","Yoga"]
 
 	# random pop
 	def popr(ls):
